@@ -1,6 +1,6 @@
 SDK:=$(shell ls /Developer/SDKs | sort -r | head -n 1)
-CFLAGS=-Wall -Os -g -isysroot /Developer/SDKs/$(SDK) -arch i386 -arch ppc -I../unimotion
-LFLAGS=-Wl,-syslibroot,/Developer/SDKs/$(SDK) -arch i386 -arch ppc
+CFLAGS=-Wall -Os -g -isysroot /Developer/SDKs/$(SDK) -arch i386 -I../unimotion
+LFLAGS=-Wl,-syslibroot,/Developer/SDKs/$(SDK) -arch i386
 TARGET=../bin/motion
 
 all: $(TARGET)

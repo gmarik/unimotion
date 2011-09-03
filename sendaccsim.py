@@ -1,3 +1,5 @@
+# http://ifiddling.blogspot.com/2009/01/dummy2.html
+#
 import sys, socket, time, traceback
 
 kCFAbsoluteTimeIntervalSince1970 = 978307200.0 # from CFDate.c 

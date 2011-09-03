@@ -15,3 +15,28 @@ Mirrored here because of the mods made to get it built
 also it contains python script form [iFiddling](http://ifiddling.blogspot.com/2009/01/dummy2.html) to allow data to be sent to iOS simulator running with [this code](http://code.google.com/p/accelerometer-simulator/wiki/Home)
 
 So it lets simulate UIAccelerometer changes in iOS simulator using MacBook's accelerometer.
+
+
+# HOWTO
+
+## Build Unimotion
+
+    $ cd src/; make; cd ..
+
+## Run simulation
+
+    $ src/bin/motion -f 17 | python sendaccsim.py
+    >
+     0.01 -0.02 -1.01
+     0.01 -0.01 -1.02
+     0.02 -0.01 -1.02
+     0.01 -0.01 -1.03
+     0.01 -0.02 -1.03
+    -0.00 -0.02 -1.03
+     0.01 -0.02 -1.03
+     0.01 -0.02 -1.02
+
+## Run simulator
+
+With [code](http://code.google.com/p/accelerometer-simulator/wiki/Home#Embedding_into_your_application)
+

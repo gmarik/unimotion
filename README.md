@@ -40,3 +40,7 @@ So it lets simulate UIAccelerometer changes in iOS simulator using MacBook's acc
 
 With [code](http://code.google.com/p/accelerometer-simulator/wiki/Home#Embedding_into_your_application)
 
+
+# Examples
+
+- [HypnoAccel](https://github.com/gmarik/iOsProgramming-2e/tree/master/08-Accelerometer/HypnoAccell)

@@ -14,3 +14,4 @@ Mirrored here because of the mods made to get it built
 
 also it contains python script form [iFiddling](http://ifiddling.blogspot.com/2009/01/dummy2.html) to allow data to be sent to iOS simulator running with [this code](http://code.google.com/p/accelerometer-simulator/wiki/Home)
 
+So it let's u send UIAccelerometer simulation using MacBook's accelerometer.
